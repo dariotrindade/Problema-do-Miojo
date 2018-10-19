@@ -29,25 +29,25 @@ if((tempoMiojo%2 != 0) && (ta1%2==0 && ta2%2==0)){
 
 if(possivel){
 	while(1){
-	if (ta2 < ta1){
-		tempoFinal = tempoFinal + ta2;
-		if (ta2 == tempoMiojo)
-			break;
+		if (ta2 < ta1){
+			tempoFinal = tempoFinal + ta2;
+			if (ta2 == tempoMiojo)
+				break;
 			ta1 = ta1 - ta2;
 			ta2 = tempoAmpuleta2;
 		}
 		else {
-		tempoFinal = tempoFinal + ta1;
-		if (ta1 == tempoMiojo)
-			break;
+			tempoFinal = tempoFinal + ta1;
+			if (ta1 == tempoMiojo)
+				break;
 			ta2 = ta2 - ta1;
 			ta1 = tempoAmpuleta1;
 		}
 	}
 	printf("\nO tempo mínimo gasto para o miojo ficar pronto em minutos foi: %d", tempoFinal, setlocale(LC_ALL,""));
-}else{
+} 
+else
 	printf("\nNão é possível cozinhar o miojo no tempo exato com as ampulhetas disponíveis.", setlocale(LC_ALL,""));
-}
 
 return 0;
 }
