@@ -27,6 +27,10 @@ if((tempoMiojo%2 != 0) && (ta1%2==0 && ta2%2==0)){
 	possivel = 0;
 }
 
+if((ta1==ta2) && (tempoMiojo!=ta1) && (tempoMiojo!=ta2)){
+	possivel = 0;
+}
+
 if(possivel){
 	while(1){
 		if (ta2 < ta1){
