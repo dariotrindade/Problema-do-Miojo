@@ -1,6 +1,6 @@
-### Problema do Miojo:
+## Problema do Miojo:
 
-# Feito em C. Foi usada a ide Dev C++: [clique aqui](https://sourceforge.net/projects/orwelldevcpp/)
+#### Feito em C. Usando a ide Dev C++ version 5.11: [clique aqui](https://sourceforge.net/projects/orwelldevcpp/)
 
 João é um fanático por miojos; ele os adora, e, como era de se esperar, ele levou vários pacotes quando foi acampar com seus colegas. Como João só gosta de miojos feitos com o tempo exato, ele se deseperou ao perceber que havia esquecido seu relógio em casa.
  
