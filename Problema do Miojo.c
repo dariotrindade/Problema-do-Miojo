@@ -13,7 +13,7 @@ printf("Informe o tempo da Ampuleta 2 em minutos: ");
 scanf("%d", &tempoAmpuleta2);
 
 while (tempoAmpuleta1 < tempoMiojo || tempoAmpuleta2 < tempoMiojo){
-	printf("\nTempo da(s) ampulheta(s) menor que o tempo de preparo do miojo.\nInsira tempos maiores que o tempo de preparo do miojo.");
+	printf("\nTempo da(s) ampulheta(s) menor que o tempo de preparo do miojo.\nInsira tempos maiores ou iguais ao tempo de preparo do miojo.");
 	printf("\n\nInforme o tempo da Ampuleta 1 em minutos: ");
 	scanf("%d", &tempoAmpuleta1);
 	printf("Informe o tempo da Ampuleta 2 em minutos: ");
