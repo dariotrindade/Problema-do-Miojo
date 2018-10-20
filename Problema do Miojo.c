@@ -23,13 +23,24 @@ while (tempoAmpuleta1 < tempoMiojo || tempoAmpuleta2 < tempoMiojo){
 ta1 = tempoAmpuleta1;
 ta2 = tempoAmpuleta2;
 
-if((tempoMiojo%2 != 0) && (ta1%2==0 && ta2%2==0)){
-	possivel = 0;
+int mdc(int a, int b) {
+
+    int resto;
+
+    do {
+        resto = a % b;
+
+        a = b;
+        b = resto;
+
+    } while (resto != 0);
+
+    return a;
 }
 
-if((ta1==ta2) && (tempoMiojo!=ta1) && (tempoMiojo!=ta2)){
-	possivel = 0;
-}
+if ((tempoMiojo % mdc(ta1, ta2))){
+    possivel = 0;
+    }
 
 if(possivel){
 	while(1){
